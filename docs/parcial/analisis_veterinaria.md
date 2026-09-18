@@ -41,8 +41,8 @@ Al manejar una base de datos de los clientes se puede manejar un historial clín
 Este ERP puede llevar a generar indicadores a futuro que permitan mejorar el funcionamiento de la veterinaria. 
 
 ## 5. Diagrama ER. 
-```
-mermaid
+
+```mermaid
 erDiagram
     CLIENTES ||--o{ MASCOTAS : "posee"
     CLIENTES ||--o{ CITAS : "agenda"
